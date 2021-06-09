@@ -27,6 +27,12 @@ sudo git clone https://github.com/xyou365/AutoRclone && cd AutoRclone && sudo pi
 Then run this command (type in cmd command windows or PowerShell windows) in our project folder
 ```
 pip3 install -r requirements.txt
+pip3 install oauth2client --upgrade
+pip3 install google-api-python-client --upgrade
+pip3 install progress --upgrade
+pip3 install progressbar2 --upgrade
+pip3 install httplib2shim --upgrade
+pip3 install google_auth_oauthlib --upgrade
 ```
 
 Step 2. Generate service accounts [What is service account](https://cloud.google.com/iam/docs/service-accounts) [How to use service account in rclone](https://rclone.org/drive/#service-account-support).
